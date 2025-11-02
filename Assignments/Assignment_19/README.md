@@ -1,11 +1,11 @@
 # Assignment 19 :
 This folder contains warmup codes which are:-
 
-Used to check the given number is leap ot not
-Used to display grades for obtained marks
-Check the given number is divisible by 5 and 11
-Used to print the digitd of given number
-Used to calculate the power of given number.
+1. Used to check the given number is leap ot not
+2. Used to display grades for obtained marks
+3. Check the given number is divisible by 5 and 11
+4. Used to print the digitd of given number
+5. Used to calculate the power of given number.
 Commands used to execute these codes:-
 
 javac FileName.java
