@@ -6,6 +6,7 @@ This folder contains warmup codes which are:-
 3. Check the given number is divisible by 5 and 11
 4. Used to print the digitd of given number
 5. Used to calculate the power of given number.
+   
 Commands used to execute these codes:-
 
 javac FileName.java
