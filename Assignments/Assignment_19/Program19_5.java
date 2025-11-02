@@ -1,0 +1,50 @@
+///////////////////////////////////////////////////////////////////////////////////////////
+//
+//  Method name   : void CalculatePower from (class Logic)
+//  Description   : program to calculate the power of a number
+//  Input         : Integer
+//  Output        : Integer
+//  Author        : Saurabh Ravindra Bhonsle
+//  Date          : 29 /10/2025
+//
+///////////////////////////////////////////////////////////////////////////////////////////
+
+class Logic 
+{
+ void CalculatePower(int base, int exp)
+ {
+    int iCnt = 0;
+    int iResult = 1;
+
+    for(iCnt = 1 ; iCnt <= exp; iCnt++)
+    {
+      iResult = iResult *base;
+    }
+    System.out.println("Power is :" +iResult);
+ }  
+} 
+
+///////////////////////////////////////////////////////////////////////////////////////////
+//
+//  Entry point of main method
+//
+///////////////////////////////////////////////////////////////////////////////////////////
+
+class Program19_5
+{
+   public static void main(String A [])
+   {
+    Logic lobj = new Logic();
+    lobj.CalculatePower(2, 5); 
+    
+   }
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////
+//
+//  Testcase successfully handled by the application
+//
+//  Input  : 2  5
+//  output : Power is : 32
+//                                 
+///////////////////////////////////////////////////////////////////////////////////////////
